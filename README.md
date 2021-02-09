@@ -1,0 +1,2 @@
+# Prunning
+Test task (prunning)
