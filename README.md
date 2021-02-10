@@ -12,6 +12,6 @@
 
 В случае Unit/Neuron pruning мы устанавливаем равными нулю столбцы матрицы весов тем самым фактически удаляя соответствующий выходной нейрон. В это случаедля достижения разреженности k% (т. е. удаления k% узлов) мы ранжируем столбцы матрицы весов в соответствии с их $L_2$ нормой и удаляем наименьшие k% столбцов. Схематически описанные два метода показаны на рис. 1.
 
-![image.png](attachment:image.png) Рис. 1. Методы prunning. Источник: https://medium.com/@yasersakkaf123/pruning-neural-networks-using-pytorch-3bf03d16a76e
+![image.png](attachment:https://github.com/Svetlana19/Prunning/blob/main/images/prunning.png) Рис. 1. Методы prunning. Источник: https://medium.com/@yasersakkaf123/pruning-neural-networks-using-pytorch-3bf03d16a76e
 
 Если проводить аналогию с нейроннами головного мозга, то Prunning весов можно сравнить с удаление синапсов, а Unit/Neuron pruning с удалением самих нейронов.
