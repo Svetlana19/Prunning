@@ -22,3 +22,12 @@
 ![resnet20_Adam_lr%3D0.0005.png](https://github.com/Svetlana19/Prunning/blob/main/results/resnet20_Adam_lr%3D0.0005.png)
 ![resnet20_Adamax_lr%3D0.002_betas%3D(0.9%2C%200.999)_eps%3D1e-08_weight_decay%3D0.png](https://github.com/Svetlana19/Prunning/blob/main/results/resnet20_Adamax_lr%3D0.002_betas%3D(0.9%2C%200.999)_eps%3D1e-08_weight_decay%3D0.png)
 ![resnet20_SGD_lr%3D0.01_momentum%3D0.9.png](https://github.com/Svetlana19/Prunning/blob/main/results/resnet20_SGD_lr%3D0.01_momentum%3D0.9.png)
+
+## Результаты
+
+Предложения по поводу алгоритмов prunning:
+
+* Выбор весов из матрицы исользуя некую аналогию с пуллингом (выбираются N весов, например, 4 выбирается наибольшее значение оно остаётся, а остальные удаляются). Это будет быстрее чем классеризация, но возможно ухудшение результата будет незначительным.
+
+* Удаление весов из матрицы исходя из статистического распределения весов (здесь дополнительно потребуется округление значений весов до целых или десятых). 
+*
