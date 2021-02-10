@@ -15,3 +15,10 @@
 ![prunning.png](https://github.com/Svetlana19/Prunning/blob/main/images/prunning.png) Рис. 1. Методы prunning. Источник: https://medium.com/@yasersakkaf123/pruning-neural-networks-using-pytorch-3bf03d16a76e
 
 Если проводить аналогию с нейроннами головного мозга, то Prunning весов можно сравнить с удаление синапсов, а Unit/Neuron pruning с удалением самих нейронов.
+
+## Построение модели
+
+В качестве модели для обучения в соответствии с заданием была выбрана архитектура ResNet20. В ходе обучения были использованы оптимизаторы Adam, SGD и Adamax.  Результаты обучения существенно не различаются. ВО всех случаях заметна необходимость понижения rearning rate и увеличения числа эпох обучения.
+![resnet20_Adam_lr%3D0.0005.png](https://github.com/Svetlana19/Prunning/blob/main/results/resnet20_Adam_lr%3D0.0005.png)
+![resnet20_Adamax_lr%3D0.002_betas%3D(0.9%2C%200.999)_eps%3D1e-08_weight_decay%3D0.png](https://github.com/Svetlana19/Prunning/blob/main/results/resnet20_Adamax_lr%3D0.002_betas%3D(0.9%2C%200.999)_eps%3D1e-08_weight_decay%3D0.png)
+![resnet20_SGD_lr%3D0.01_momentum%3D0.9.png](https://github.com/Svetlana19/Prunning/blob/main/results/resnet20_SGD_lr%3D0.01_momentum%3D0.9.png)
