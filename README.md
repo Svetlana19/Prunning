@@ -23,6 +23,8 @@
 ![resnet20_Adamax_lr%3D0.002_betas%3D(0.9%2C%200.999)_eps%3D1e-08_weight_decay%3D0.png](https://github.com/Svetlana19/Prunning/blob/main/results/resnet20_Adamax_lr%3D0.002_betas%3D(0.9%2C%200.999)_eps%3D1e-08_weight_decay%3D0.png)
 ![resnet20_SGD_lr%3D0.01_momentum%3D0.9.png](https://github.com/Svetlana19/Prunning/blob/main/results/resnet20_SGD_lr%3D0.01_momentum%3D0.9.png)
 
+Рис. 2. Обучение ResNet20.
+
 На графиках значения функции потерь на тестовой выборке показаны красным цветом, а на валидационной выборке синим. Видно, что во всех рассмотренных случаях значение функции потерь на обучающей выборке меньше, чем на валидационной. Возможно, имеет смысл добавить регуляризацию в модель или проверить сбалансированность классов а обучающей с валидационной выборках. 
 
 ## Результаты
